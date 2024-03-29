@@ -1,0 +1,48 @@
+.sticky-header {
+	background-color: white;
+	color: black;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+	position: fixed;
+	width: 100%;
+}
+
+.header-content {
+	text-align: right;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.text-align {
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+.navigation-container {
+	display: grid;
+	grid-template-rows: auto;
+	grid-template-columns: minmax(33%, 1fr) 1fr minmax(33%, 1fr);
+	height: auto;
+}
+
+.title-container {
+	text-align: center;
+	font-size: 2rem;
+}
+
+.title {
+	font-family: var(--ff-sans-cond);
+	font-weight: 400;
+}
+
+.header {
+	z-index: 100;
+	height: auto;
+	font-family: var(--ff-serif);
+	text-transform: uppercase;
+}
